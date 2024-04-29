@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 20 Charted", sans-serif;
+}
