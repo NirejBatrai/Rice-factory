@@ -6,7 +6,6 @@ import Service from "./Component/Services";
 import Contact from "./Component/Contact";
 import About from "./Component/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./index.css";
 
 function App() {
   return (
