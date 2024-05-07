@@ -7,12 +7,14 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PageNotFound from "./pages/PageNotFound";
+import HeaderBottom from "./components/HeaderBottom/HeaderBottom";
 
 function App() {
   return (
     <div className="container">
       <Router>
         <HeaderTop />
+        <HeaderBottom />
         <Routes>
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />

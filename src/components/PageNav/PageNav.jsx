@@ -1,18 +1,9 @@
 import { Link } from "react-router-dom";
 import styles from "./PageNav.module.css";
-import cartIcon from "../../../public/shopping-cart.png";
-import englishFlag from "../../../public/english-flag.png";
 
 function PageNav() {
   return (
     <div className={styles.container}>
-      <div>
-        <img
-          className={styles.englishFlag}
-          src={englishFlag}
-          alt="English Flag"
-        />
-      </div>
       <nav>
         <ul className={styles.navLinks}>
           <li>
@@ -32,8 +23,6 @@ function PageNav() {
           </li>
         </ul>
       </nav>
-
-      <img className={styles.image} src={cartIcon} alt="Cart Icon" />
     </div>
   );
 }

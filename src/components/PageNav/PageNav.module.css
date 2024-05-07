@@ -14,14 +14,3 @@
   list-style-type: none;
   padding-left: 0px;
 }
-
-.englishFlag {
-  height: 24px;
-  width: 24px;
-}
-
-.image {
-  height: 24px;
-  width: 24px;
-  object-fit: cover;
-}

@@ -1,7 +1,8 @@
 import React from "react";
-import PageNav from "../PageNav/PageNav";
 import styles from "./HeaderTop.module.css";
 import SearchProducts from "../SearchProducts/SearchProducts";
+import englishFlag from "../../../public/english-flag.png";
+import cartIcon from "../../../public/shopping-cart.png";
 
 function Header() {
   return (
@@ -12,7 +13,12 @@ function Header() {
       </div>
       <div className={styles.container2}>
         <SearchProducts />
-        <PageNav />
+        <img
+          className={styles.englishFlag}
+          src={englishFlag}
+          alt="English Flag"
+        />
+        <img className={styles.cart} src={cartIcon} alt="Cart Icon" />
       </div>
     </header>
   );
