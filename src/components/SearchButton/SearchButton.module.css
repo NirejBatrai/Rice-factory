@@ -1,0 +1,8 @@
+.mgniGlass {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover; /* This will make the image cover the entire container */
+}

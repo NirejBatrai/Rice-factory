@@ -1,0 +1,28 @@
+.btn {
+  text-transform: uppercase;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  font-weight: 700;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+}
+
+.back {
+  font-weight: 600;
+  background: none;
+  border: 1px solid currentColor;
+}
+
+.search {
+  font-size: 15px;
+  width: 50px;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+  border-color: #f7f7f8;
+  background-color: #f7f7f8;
+  position: relative;
+}
