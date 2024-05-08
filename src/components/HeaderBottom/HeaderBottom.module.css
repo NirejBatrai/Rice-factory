@@ -3,10 +3,10 @@
   top: 90px;
   left: 45px;
   right: 45px;
-  background-color: rgb(110, 140, 224);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .select {
@@ -15,7 +15,6 @@
   height: 45px;
   width: 150px;
   border-radius: 10px;
-
   background-color: #f7f7f8e1;
   border-style: none;
 }
